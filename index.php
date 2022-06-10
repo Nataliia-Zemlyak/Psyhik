@@ -29,9 +29,9 @@
                         } else {
                             echo ("<p>try again</p>");
                         }
-                        echo ("<p>$password</p>");
-                        } 
-            }        
+                         
+            }    
+        }    
                     
                     echo("<p>");
                         echo ("<select name = 'choose'>");
@@ -47,8 +47,8 @@
             
                     
         <input type='hidden' name='password' value="<?php echo($password); ?>">
-        <p><button class="button" type="submit" name="newGame">Start new game</button></p>
         <input type="submit" name="go" value="go" />
+        <p><button class="button" type="submit" name="newGame">Start new game</button></p>
 
     </form> 
     
